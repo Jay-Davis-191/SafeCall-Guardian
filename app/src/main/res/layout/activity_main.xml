@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_navy"
+    tools:context="MainActivity">
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.17"
+        android:textColor="@color/white"
+        android:background="@color/navy"
+        android:text="@string/settings"
+        android:onClick="settingsClicked"
+        android:textSize="50sp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:paddingTop="20dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/schedule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        tools:ignore="NestedWeights" />
+
+    <TextView
+        android:id="@+id/reminder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="45dp"
+        android:textColor="@color/white"
+        android:text="@string/your_scheduled_time_will_appear_here"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="30dp"
+        android:text="@string/schedule_call"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons"
+        android:onClick="scheduleClicked"
+        android:textSize="40sp" />
+</LinearLayout>
+
+</LinearLayout>

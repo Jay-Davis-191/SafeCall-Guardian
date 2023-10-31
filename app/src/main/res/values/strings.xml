@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FakeCaller2</string>
+    <string name="dial_no">Dial No.</string>
+    <string name="call">Call</string>
+    <string name="settings">Settings</string>
+    <string name="your_scheduled_time_will_appear_here">Your scheduled time will appear here</string>
+    <string name="schedule_call">Schedule call</string>
+    <string name="home">Home</string>
+    <string name="phone">Phone</string>
+    <string name="enter_number_here">Enter number here</string>
+</resources>

@@ -1,4 +1,4 @@
-# Fake-Caller
+# SafeCall Guardian
 ## Description
 This app allows the user to simulate receiving a phone call with a custom number to show the pretend caller. This app is intended for safety reasons by providing the user a potential escape from uncomfortable or dangerous situations. The app comes with a Settings page to let the user input a custom number they want to show up when the phone call comes through.  
 
